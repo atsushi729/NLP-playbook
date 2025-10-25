@@ -1,0 +1,53 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ---- Logs & Results ----
+*.log
+logs/
+results/
+output/
+*.out
+*.tmp
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---- Data ----
+data/
+*.csv
+*.tsv
+*.json
+*.zip
+*.gz
+*.tar
+*.pkl
+*.joblib
+
+# ---- Environment / Config ----
+.env
+.env.local
